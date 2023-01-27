@@ -352,5 +352,41 @@ table {
 }
 
 .main-content .right-side {
+  display: grid;
+  grid-template-rows: 0fr 0fr;
+  gap: 10px;
   grid-area: rs;
+}
+.main-content .right-side .announcements h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.main-content .right-side .announcements .announcement {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 10px;
+}
+
+.main-content .right-side .announcements .announcement .news {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.main-content .right-side .announcements .announcement .news h2 {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.main-content .right-side .announcements .announcement .news p {
+  font-size: 0.8rem;
+  color: #7d7d7d;
+}
+
+.main-content .right-side .announcements .announcement hr {
+  border: 0.7px #7d7d7d4d solid;
+  width: 100%;
 }
