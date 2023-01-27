@@ -147,7 +147,8 @@ table {
   display: grid;
   grid-template: 0fr 0fr / 1fr;
   padding-bottom: 15px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
 }
 .header .bottom-side {
   display: flex;
@@ -162,12 +163,13 @@ table {
   margin-right: 160px;
 }
 .header .bottom-side .right-side button {
-  font-size: 1.1rem;
+  font-size: 1.08rem;
   color: white;
   padding: 10px 30px;
   background-color: #26aaf1;
   border-radius: 30px;
   border: none;
+  font-weight: 600;
 }
 .header .bottom-side .left-side {
   display: flex;
@@ -180,7 +182,7 @@ table {
   font-weight: 500;
 }
 .header .bottom-side .left-side .name h1 {
-  font-size: 24px;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 .header .bottom-side .left-side .name {
@@ -253,7 +255,7 @@ table {
 
 .sidebar .title {
   display: flex;
-  font-size: 24px;
+  font-size: 1.6rem;
   font-weight: 500;
   align-items: center;
 }
