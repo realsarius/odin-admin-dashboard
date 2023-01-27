@@ -10,11 +10,16 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
     />
 
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+      }
+    </style>
     <title>Admin Dashboard</title>
   </head>
   <body>
@@ -22,26 +27,52 @@
       <div class="header">Header</div>
 
       <div class="sidebar">
-        <!-- <span class="material-symbols-outlined"> dashboard </span> -->
         <div class="title">
-          <img src="img/view-dashboard.svg" alt="dashboard" />
-          <span>Dashboard</span>
+          <span class="material-symbols-outlined"> dashboard </span>
+          <h1>Dashboard</h1>
         </div>
         <div class="nav">
           <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Task</li>
-            <li>Communities</li>
+            <div class="list-item">
+              <span class="material-symbols-outlined"> home </span>
+              <li>Home</li>
+            </div>
+            <div class="list-item">
+              <span class="material-symbols-outlined"> person </span>
+              <li>Profile</li>
+            </div>
+            <div class="list-item">
+              <span class="material-symbols-outlined"> mode_comment </span>
+              <li>Messages</li>
+            </div>
+            <div class="list-item">
+              <span class="material-symbols-outlined"> schedule </span>
+              <li>History</li>
+            </div>
+            <div class="list-item">
+              <span class="material-symbols-outlined"> task </span>
+              <li>Task</li>
+            </div>
+            <div class="list-item">
+              <span class="material-symbols-outlined"> groups </span>
+              <li>Communities</li>
+            </div>
           </ul>
         </div>
         <div class="nav-bottom">
           <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+            <div class="list-item">
+              <span class="material-symbols-outlined"> settings </span>
+              <li>Settings</li>
+            </div>
+            <div class="list-item">
+              <span class="material-symbols-outlined"> help_center </span>
+              <li>Support</li>
+            </div>
+            <div class="list-item">
+              <span class="material-symbols-outlined"> verified_user </span>
+              <li>Privacy</li>
+            </div>
           </ul>
         </div>
       </div>
