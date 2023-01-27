@@ -135,6 +135,7 @@ table {
   font-family: "Roboto", sans-serif;
   width: 100%;
   display: grid;
+  height: 100vh;
   grid-template-columns: 0fr 3fr;
   grid-template-rows: 0fr 1fr;
   grid-template-areas:
@@ -309,7 +310,7 @@ table {
 
 .main-content .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 0fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 25px;
   margin-top: 10px;
 }
