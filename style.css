@@ -129,6 +129,59 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.header {
+  width: 100%;
+}
+.header .top-side {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.header .top-side .profile {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.header .top-side .profile span,
+.header .top-side .profile img {
+  margin-right: 30px;
+}
+.header .top-side .profile h1 {
+  margin-right: 60px;
+}
+
+.header .top-side .search-container {
+  display: flex;
+  width: 50vh;
+  align-items: center;
+}
+.header .top-side .search-container .search {
+  margin-right: 30px;
+}
+.header .top-side .search-container input {
+  flex-grow: 1;
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  background: #e2e8f0;
+  border: 1.5px rgb(219, 219, 219) solid;
+}
+.header .top-side .search-container input:hover {
+  background-color: rgb(243, 243, 243);
+  transition: all ease-in-out 0.25s;
+  box-shadow: 0px 0px 5px 5px rgba(172, 172, 172, 0.1);
+}
+
+.header .top-side .search-container input:focus {
+  outline: 1.5px rgb(156, 156, 255) solid;
+}
+.header .top-side img {
+  width: 74px;
+  height: 64px;
+  border-radius: 50%;
+}
 
 .container {
   font-family: "Roboto", sans-serif;
